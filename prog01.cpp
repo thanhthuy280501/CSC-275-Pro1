@@ -2,11 +2,17 @@
 #include <string>
 #include "Member.h"
 
-// Name:         Aloysius X. Student
+//***************************************************************************
+// Name:         Thi Thanh Thuy Nguyen
 // Program:      CSC 275 Program 1
-// Due Date:     09/32/24
-// Compiler:     (whatever one you used.)
-// This program simulates a library system through...
+// Due Date:     09/14/24
+// Compiler:     C Lion
+// ***************************************************************************
+// This program is designed and implemented two classes, Book and Member, 
+// which form the foundation of a library management system.
+// The Book class will represent a book in the library, 
+// while the Member class will represent a library member who can borrow books.
+//******************************************************************************
 
 int main() {
     // Create four Book objects
