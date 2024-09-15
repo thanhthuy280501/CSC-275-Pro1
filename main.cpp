@@ -2,6 +2,12 @@
 #include <string>
 #include "Member.h"
 
+// Name:         Aloysius X. Student
+// Program:      CSC 275 Program 1
+// Due Date:     09/32/24
+// Compiler:     (whatever one you used.)
+// This program simulates a library system through...
+
 int main() {
     // Create four Book objects
     Book book1("Absolute C++", "Walter Savitch", "978-0-13-397078-4");
