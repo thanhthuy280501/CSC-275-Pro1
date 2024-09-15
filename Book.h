@@ -10,15 +10,15 @@ private:
 
 public:
     // Default constructor
-    Book() : title(""), author(""), ISBN("") {}
+    Book() : title(""), author(""), ISBN("") {}                                 //Implement a default constructor.
 
     // Parameterized constructor
-    Book(string t, string a, string i) : title(t), author(a), ISBN(i) {}
+    Book(string t, string a, string i) : title(t), author(a), ISBN(i) {}        //Parameterized constructor that initializes all attributes.
 
     // Destructor
     ~Book() {}
 
-    // Overloaded == operator to compare ISBNs
+    // Overloaded == operator to compare ISBNs                                  //Overload the == and != operators to compare books based on their ISBN
     bool operator==(const Book& other) const {
         return this->ISBN == other.ISBN;
     }
